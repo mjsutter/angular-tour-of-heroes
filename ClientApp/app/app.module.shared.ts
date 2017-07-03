@@ -4,12 +4,15 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './components/app/app.component'
 import { HomeComponent } from './components/home/home.component';
+import { HeroDetailComponent } from './components/app/hero-detail.component';
+
 
 export const sharedConfig: NgModule = {
     bootstrap: [ AppComponent ],
     declarations: [
         AppComponent,
-        HomeComponent
+        HomeComponent,
+        HeroDetailComponent
     ],
     imports: [
         FormsModule,
